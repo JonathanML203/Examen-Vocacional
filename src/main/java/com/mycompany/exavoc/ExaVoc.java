@@ -880,7 +880,7 @@ public class ExaVoc {
                                           System.out.println("\n PRESIONA (1) PARA VER INFORMACION:  \n");
                                           do{
                                             rt=leer.nextInt();
-                                          }while(rt==1);
+                                          }while(rt!=1);
                                           C1_Administrativas_Y_Contables();
                                           H1_Humanisticas_Y_Sociales();
                                           A1_Artisticas();
@@ -933,7 +933,7 @@ public class ExaVoc {
                                           System.out.println("\n PRESIONA (1) PARA VER INFORMACION:  \n");
                                           do{
                                               rt=leer.nextInt(); 
-                                          }while(rt==1);
+                                          }while(rt!=1);
                                             C2_Administrativas_Y_Contables();
                                             H2_Humanisticas_Y_Sociales();
                                             A2_Artisticas();
